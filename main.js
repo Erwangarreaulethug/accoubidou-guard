@@ -1,4 +1,9 @@
 const Discord = require('discord.js');
+const fs = require('fs');
+
+let tokenRAW = fs.readFileSync('token.json');
+let token = JSON.parse(tokenRAW);
+
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -6,9 +11,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.content === 'ping') {
+    if (msg.content.toLowerCase().replace(/ /g, "").includes('ping')) {
         msg.reply('Pong!');
     }
 });
 
-client.login('token');
+client.login(token["token"]);

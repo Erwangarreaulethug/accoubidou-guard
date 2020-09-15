@@ -1,4 +1,2 @@
 # accoubidou-guard
-I'm a guard
-
-Ellow
+I'm here to insult Achbani Sami alias @acoubidou

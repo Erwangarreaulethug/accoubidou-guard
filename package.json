@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Erwangarreaulethug/accoubidou-guard/issues"
   },
-  "homepage": "https://github.com/Erwangarreaulethug/accoubidou-guard"
+  "homepage": "https://github.com/Erwangarreaulethug/accoubidou-guard",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
 }

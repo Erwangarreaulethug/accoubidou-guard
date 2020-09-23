@@ -16,19 +16,19 @@ client.on('ready', () => {
 
 client.on('message', msg => {
     if(!msg.author.bot) {
-        if (msg.content.toLowerCase().replace(/ /g, "").includes('ping')) {
-            msg.reply('Pong!');
+        if (msg.content.toLowerCase().replace(/ /g, "").includes('slt')) {
+            msg.reply('Wech la chèvre!');
         }
 
-        if (msg.content.toLowerCase().replace(/ /g, "").includes('pong')) {
-            msg.reply('Ping!');
+        if (msg.content.toLowerCase().replace(/ /g, "").includes('hello')) {
+            msg.reply('Uuuuuuuuuuuuuddddddddddddeeeeeeeeeeeeeeeeeerrrrrrrrrrrrssssssssssssssssttttttttttttttttoooooooooooooooooooodddddd!');
         }
 
         if (msg.content.toLowerCase().replace(/ /g, "").includes('salut')) {
             msg.reply('TG');
         }
 
-        if (msg.content.toLowerCase().replace(/ /g, "").includes('tamere')) {
+        if (msg.content.toLowerCase().replace(/ /g, "").includes('fdp')) {
             msg.reply('Ta mere toi meme');
         }
 
